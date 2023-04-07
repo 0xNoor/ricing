@@ -1,0 +1,1 @@
+export PS1="\[\033[38;5;202m\]\A\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;10m\]\h@\u\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;226m\]\w\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;207m\]\$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/')\[$(tput sgr0)\]\n\[$(tput sgr0)\]\[\033[38;5;195m\]λ \[$(tput sgr0)\]"
